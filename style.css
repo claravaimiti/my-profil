@@ -1,0 +1,78 @@
+/*colors and font*/
+
+body {
+	background:#dff0ea;
+	color: #e3e7f1;
+	font-family: Helvetica
+	font-size:25px;
+}
+h1{
+	color: #494ca2;
+	font-family: dosis ;
+	font-size: 32px;
+	
+	}
+
+h2, h3 {
+	font-family: quickland ;
+}
+
+h2{
+	color: #494ca2;
+	font-size: 18px;
+	}
+h3{
+	color: #8186d5;
+	font-size: 15px;
+	font-weight: lighter;
+	}
+
+a{	color:#072D28;
+	transition: color 0.3s ease;
+	}
+a:hover{
+	color: red;
+	}
+
+/*custom design with class */
+
+#image-circle{border-radius: 70%;
+width: 200px;
+box-shadow: 0px 1px 1px #e3e7f1;}
+
+
+.purple.btn{
+	background: #e3e7f1
+	color: #8186d5
+}
+
+.container {
+
+
+}
+.card-design{
+	width: 700px;
+	margin: 40px auto;
+	background: #c6cbef; 
+	padding: 50px;
+	box-shadow: 0px 10px 50px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	text-align: center;"
+
+}
+
+@media(max-width: 760px) {
+	.card-design{
+		width: 600px;
+	}
+}
+
+@media(max-width: 700px) {
+	.card-design{
+		width: 400px;
+	}
+}
+
+	
+
+
